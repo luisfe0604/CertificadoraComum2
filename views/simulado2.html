@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <title>Página de Estudos - POO</title>
+</head>
+
+<body>
+
+    <!--Cabeçalho-->
+    <header>
+        <nav class="navbar fix-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="../index.html">Página de Estudos</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <span class="nav-link" href="index.html">Simulados</span>
+                        <ul id="submenu">
+                            <li><a class="subitem" href="./simulado1.html">Simulado 1</a></li>
+                            <li><a class="subitem" href="./simulado2.html">Simulado 2</a></li>
+                            <li><a class="subitem" href="./simulado3.html">Simulado 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary" href="./conteudo.html">Mais conteúdos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--Informações iniciais-->
+    <main id="mainquest">
+
+        <form action="" class="exercicios">
+            <h1 id="topQuest">Simulado 2</h1>
+            <div id="result"></div>
+            <div class="question">
+                <h3>Questão 1</h3>
+                <p>Qual dos seguintes princípios está associado à POO?</p>
+                <label><input type="radio" name="quest1" value="0"> Algoritmos complexos</label>
+                <label><input type="radio" name="quest1" value="1"> Modularidade</label>
+                <label><input type="radio" name="quest1" value="0"> Programação estruturada</label>
+                <label><input type="radio" name="quest1" value="0"> Orientação a procedimentos</label>
+            </div>
+            <div class="question">
+                <h3>Questão 2</h3>
+                <p>Qual é o objetivo principal do encapsulamento em POO?</p>
+                <label><input type="radio" name="quest2" value="0"> Aumentar a eficiência computacional do programa.</label>
+                <label><input type="radio" name="quest2" value="0"> Facilitar a reutilização de código.
+                </label>
+                <label><input type="radio" name="quest2" value="0"> Garantir a correta alocação de memória.</label>
+                <label><input type="radio" name="quest2" value="1"> Ocultar detalhes internos de um objeto e proteger seu estado.</label>
+            </div>
+            <div class="question">
+                <h3>Questão 3</h3>
+                <p>Na programação orientada a objetos, o termo "reflexividade" se refere a:</p>
+                <label><input type="radio" name="quest3" value="0"> A capacidade de um objeto ser representado por vários tipos.</label>
+                <label><input type="radio" name="quest3" value="0"> A capacidade de uma classe herdar de múltiplas superclasses.</label>
+                <label><input type="radio" name="quest3" value="1"> A capacidade de um objeto acessar, inspecionar e modificar suas próprias estruturas e comportamentos.</label>
+                <label><input type="radio" name="quest3" value="0"> A capacidade de um objeto se comunicar com outros objetos através de mensagens.</label>
+            </div>
+            <div class="question">
+                <h3>Questão 4</h3>
+                <p>Qual é o principal benefício da reflexividade na programação orientada a objetos?</p>
+                <label><input type="radio" name="quest4" value="0"> Aumentar a segurança do código, prevenindo acesso não autorizado aos objetos.</label>
+                <label><input type="radio" name="quest4" value="0"> Permitir a criação de objetos dinamicamente em tempo de execução.</label>
+                <label><input type="radio" name="quest4" value="0"> Facilitar a comunicação entre objetos em diferentes threads.</label>
+                <label><input type="radio" name="quest4" value="1"> Possibilitar a introspecção e manipulação de objetos em tempo de execução.</label>
+            </div>
+            <div class="question">
+                <h3>Questão 5</h3>
+                <p>O que é acoplamento em relação ao design de software?</p>
+                <label><input type="radio" name="quest5" value="1"> A relação de dependência entre módulos ou componentes de um sistema.</label>
+                <label><input type="radio" name="quest5" value="0"> A organização de código em módulos independentes.</label>
+                <label><input type="radio" name="quest5" value="0"> A capacidade de um objeto ser representado por vários tipos.</label>
+                <label><input type="radio" name="quest5" value="0"> A técnica de reutilização de código por meio da herança.</label>
+            </div>
+            <div class="question">
+                <h3>Questão 6</h3>
+                <p>O que é coesão em relação ao design de software?</p>
+                <label><input type="radio" name="quest6" value="0"> A relação de dependência entre módulos ou componentes de um sistema.</label>
+                <label><input type="radio" name="quest6" value="0"> A organização de código em módulos independentes.</label>
+                <label><input type="radio" name="quest6" value="0"> A ocultação de detalhes internos de um objeto e a exposição de uma interface controlada.</label>
+                <label><input type="radio" name="quest6" value="1"> A relação de relação entre atributos e métodos de um objeto.</label>
+            </div>
+            <div class="question">
+                <h3>Questão 7</h3>
+                <p>Qual dos seguintes não é um princípio do encapsulamento em Programação Orientada a Objetos (POO)?</p>
+                <label><input type="radio" name="quest7" value="0"> Ocultar detalhes internos de um objeto.</label>
+                <label><input type="radio" name="quest7" value="0"> Expor uma interface pública para interação com o objeto.</label>
+                <label><input type="radio" name="quest7" value="1"> Permitir acesso direto e irrestrito aos atributos de um objeto.</label>
+                <label><input type="radio" name="quest7" value="0"> Proteger o estado interno de um objeto contra modificações indesejadas.</label>
+            </div>
+            <div class="question">
+                <h3>Questão 8</h3>
+                <p>Qual dos seguintes cenários é um exemplo de acoplamento baixo e coesão alta?</p>
+                <label><input type="radio" name="quest8" value="0"> Um módulo que contém várias funcionalidades independentes e pouco relacionadas.</label>
+                <label><input type="radio" name="quest8" value="1"> Um módulo que possui uma única responsabilidade e se comunica com outros módulos através de uma interface bem definida.</label>
+                <label><input type="radio" name="quest8" value="0"> Um módulo que herda várias classes diferentes e compartilha atributos e métodos entre elas.</label>
+                <label><input type="radio" name="quest8" value="0"> Um módulo que possui vários métodos que dependem fortemente de outros módulos e suas implementações.</label>
+            </div>
+            <div class="question">
+                <h3>Questão 9</h3>
+                <p>Qual das seguintes afirmações é verdadeira sobre a alocação de memória dinâmica?</p>
+                <label><input type="radio" name="quest9" value="0"> A alocação de memória dinâmica é feita durante a compilação do programa.</label>
+                <label><input type="radio" name="quest9" value="0"> A alocação de memória dinâmica é feita automaticamente pelo sistema operacional.</label>
+                <label><input type="radio" name="quest9" value="1"> A alocação de memória dinâmica permite a criação de objetos com tamanhos desconhecidos em tempo de execução.</label>
+                <label><input type="radio" name="quest9" value="0"> A alocação de memória dinâmica é uma técnica usada exclusivamente em linguagens de programação de baixo nível.</label>
+            </div>
+            <div class="question">
+                <h3>Questão 10</h3>
+                <p>O que é importante lembrar ao utilizar alocação de memória dinâmica?</p>
+                <label><input type="radio" name="quest10" value="1"> Sempre liberar a memória alocada quando ela não for mais necessária.</label>
+                <label><input type="radio" name="quest10" value="0"> Evitar a alocação dinâmica de memória, pois pode causar vazamento de memória.</label>
+                <label><input type="radio" name="quest10" value="0"> A alocação de memória dinâmica é automaticamente gerenciada pelo sistema operacional.</label>
+                <label><input type="radio" name="quest10" value="0"> A alocação dinâmica de memória é exclusiva para armazenar objetos grandes.</label>
+            </div>
+            <a id="sumButton" class="btn" href="#topQuest">Finalizar</a>
+            <a id="remake" class="btn">Limpar</a>
+        </form>
+    </main>
+
+    <!--Informações finais-->
+    <footer id="botInfo">
+        <div class="perfil">
+            <img src="../public/img/perfilAnna.jpg" alt="Anna Júlia">
+            <div class="perfilInfos">
+                <ul>
+                    <li>
+                        <h4>Anna Júlia Rodrigues Gouvea</h4>
+                    </li>
+                    <li>R.A.: 2410125</li>
+                    <li>Email: <a href="mailto:annagouvea@alunos.utfpr.edu.br">annagouvea@alunos.utfpr.edu.br</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="perfil">
+            <img src="../public/img/perfilLuis.jpg" alt="Luís Felipe Mori">
+            <div class="perfilInfos">
+                <ul>
+                    <li>
+                        <h4>Luís Felipe Mori</h4>
+                    </li>
+                    <li>R.A.: 2266245</li>
+                    <li>Email: <a href="mailto:luismori@alunos.utfpr.edu.br">luismori@alunos.utfpr.edu.br</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<script src="../scripts.js"></script>
+
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <title>Página de Estudos - POO</title>
+</head>
+
+<body>
+
+    <!--Cabeçalho-->
+    <header>
+        <nav class="navbar fix-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="../index.html">Página de Estudos</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <span class="nav-link" href="index.html">Simulados</span>
+                        <ul id="submenu">
+                            <li><a class="subitem" href="./simulado1.html">Simulado 1</a></li>
+                            <li><a class="subitem" href="./simulado2.html">Simulado 2</a></li>
+                            <li><a class="subitem" href="./simulado3.html">Simulado 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary" href="./conteudo.html">Mais conteúdos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--Informações iniciais-->
+    <main id="mainquest">
+
+        <form action="" class="exercicios">
+            <h1 id="topQuest">Simulado 3</h1>
+            <div id="result"></div>
+            <div class="question">
+                <h3>Questão 1</h3>
+                <p>Qual dos conceitos a seguir está relacionado à tecnologia Java e é totalmente aderente às técnicas de Orientação a Objetos?</p>
+                <label><input type="radio" name="quest1" value="0"> Abstração</label>
+                <label><input type="radio" name="quest1" value="0"> Atributos</label>
+                <label><input type="radio" name="quest1" value="1"> Classes</label>
+                <label><input type="radio" name="quest1" value="0"> Objetos</label>
+            </div>
+            <div class="question">
+                <h3>Questão 2</h3>
+                <p>Qual é a definição de abstração na programação orientada a objetos?</p>
+                <label><input type="radio" name="quest2" value="1"> A criação de classes para representar entidades do mundo real, levando em consideração suas características e ações.</label>
+                <label><input type="radio" name="quest2" value="0"> A capacidade de ocultar detalhes internos de um objeto e fornecer uma interface controlada para interagir com ele.</label>
+                <label><input type="radio" name="quest2" value="0"> O processo de alocar memória dinamicamente para objetos em tempo de execução.</label>
+                <label><input type="radio" name="quest2" value="0"> A técnica de reutilização de código por meio da herança.</label>
+            </div>
+            <div class="question">
+                <h3>Questão 3</h3>
+                <p>Quais são os artefatos mencionados na programação orientada a objetos?</p>
+                <label><input type="radio" name="quest3" value="1"> Classe, atributo, método e objeto.</label>
+                <label><input type="radio" name="quest3" value="0"> Atributo, método e objeto.</label>
+                <label><input type="radio" name="quest3" value="0"> Classe e objeto.</label>
+                <label><input type="radio" name="quest3" value="0"> Classe, método e objeto.</label>
+            </div>
+            <div class="question">
+                <h3>Questão 4</h3>
+                <p>Como podemos definir um tipo primitivo de dados na programação?</p>
+                <label><input type="radio" name="quest4" value="0"> É um tipo de dado que possui um endereço de memória específico para armazenar seu valor.</label>
+                <label><input type="radio" name="quest4" value="1"> É um tipo de dado que é classificado em um tipo já existente na linguagem, sem a necessidade de definição adicional.</label>
+                <label><input type="radio" name="quest4" value="0"> É um tipo de dado que representa estruturas complexas e requer alocação dinâmica de memória.</label>
+                <label><input type="radio" name="quest4" value="0"> É um tipo de dado que permite armazenar apenas valores inteiros positivos.</label>
+            </div>
+            <div class="question">
+                <h3>Questão 5</h3>
+                <p>Como podemos descrever um tipo de dado não determinado previamente, alocado em um espaço "vazio" da memória e que requer declaração explícita na linguagem?</p>
+                <label><input type="radio" name="quest5" value="0"> Tipo de dado abstrato.</label>
+                <label><input type="radio" name="quest5" value="0"> Tipo de dado primitivo.</label>
+                <label><input type="radio" name="quest5" value="0"> Tipo de dado estático.</label>
+                <label><input type="radio" name="quest5" value="1"> Tipo de dado dinâmico.</label>
+            </div>
+            <div class="question">
+                <h3>Questão 6</h3>
+                <p>Qual é a função principal de um coletor de lixo associado a uma JVM (Java Virtual Machine) na programação?</p>
+                <label><input type="radio" name="quest6" value="0"> Realizar a alocação dinâmica de memória para objetos em tempo de execução.</label>
+                <label><input type="radio" name="quest6" value="1"> Gerenciar o ciclo de vida dos objetos, garantindo que a memória seja liberada quando os objetos não estão mais em uso.</label>
+                <label><input type="radio" name="quest6" value="0"> Controlar o acesso e as permissões de memória para os processos em execução.</label>
+                <label><input type="radio" name="quest6" value="0"> Otimizar o desempenho do código por meio de técnicas de otimização de memória.</label>
+            </div>
+            <div class="question">
+                <h3>Questão 7</h3>
+                <p>Qual é o comando utilizado no terminal do Windows para compilar um código fonte em Java?</p>
+                <label><input type="radio" name="quest7" value="1"> javac nomeDoPrograma.java</label>
+                <label><input type="radio" name="quest7" value="0"> compile nomeDoPrograma.java</label>
+                <label><input type="radio" name="quest7" value="0"> run nomeDoPrograma.java</label>
+                <label><input type="radio" name="quest7" value="0"> java nomeDoPrograma.java</label>
+            </div>
+            <div class="question">
+                <h3>Questão 8</h3>
+                <p>Qual é o formato de arquivo que, também conhecido por ".class", é executado pela JVM (Java Virtual Machine)?</p>
+                <label><input type="radio" name="quest8" value="0"> Arquivo-fonte</label>
+                <label><input type="radio" name="quest8" value="0"> Arquivo executável</label>
+                <label><input type="radio" name="quest8" value="0"> Arquivo objeto</label>
+                <label><input type="radio" name="quest8" value="1"> Arquivo bytecode</label>
+            </div>
+            <div class="question">
+                <h3>Questão 9</h3>
+                <p>Qual é a principal vantagem da utilização da JVM (Java Virtual Machine) na tecnologia Java?</p>
+                <label><input type="radio" name="quest9" value="0"> A JVM permite a execução direta do código-fonte Java, sem a necessidade de compilação prévia.</label>
+                <label><input type="radio" name="quest9" value="0"> A JVM fornece uma interface gráfica para desenvolver aplicativos Java.</label>
+                <label><input type="radio" name="quest9" value="1"> A JVM possibilita a execução do bytecode gerado a partir do código-fonte Java em diferentes sistemas operacionais.</label>
+                <label><input type="radio" name="quest9" value="0"> A JVM oferece recursos avançados de depuração e teste para facilitar o desenvolvimento de aplicativos Java.</label>
+            </div>
+            <div class="question">
+                <h3>Questão 10</h3>
+                <p>Como a proteção de hardware e software é abordada na tecnologia Java?</p>
+                <label><input type="radio" name="quest10" value="0"> A proteção de hardware é garantida pelo uso de ponteiros para acessar a memória interna da máquina, enquanto a proteção de software é alcançada por meio das APIs nativas.</label>
+                <label><input type="radio" name="quest10" value="1"> A proteção de hardware é assegurada pela ausência de ponteiros na linguagem Java, impedindo o acesso direto à memória interna da máquina. Já a proteção de software é proporcionada pela extensa biblioteca de APIs nativas disponíveis.</label>
+                <label><input type="radio" name="quest10" value="0"> A proteção de hardware é obtida por meio de recursos avançados de criptografia e autenticação, enquanto a proteção de software é garantida pela abordagem orientada a objetos do Java.</label>
+                <label><input type="radio" name="quest10" value="0"> Tanto a proteção de hardware quanto a proteção de software são responsabilidades do sistema operacional subjacente, e o Java não possui um papel direto nesse aspecto.</label>
+            </div>
+            <a id="sumButton" class="btn" href="#topQuest">Finalizar</a>
+            <a id="remake" class="btn">Limpar</a>
+        </form>
+    </main>
+
+    <!--Informações finais-->
+    <footer id="botInfo">
+        <div class="perfil">
+            <img src="../public/img/perfilAnna.jpg" alt="Anna Júlia">
+            <div class="perfilInfos">
+                <ul>
+                    <li>
+                        <h4>Anna Júlia Rodrigues Gouvea</h4>
+                    </li>
+                    <li>R.A.: 2410125</li>
+                    <li>Email: <a href="mailto:annagouvea@alunos.utfpr.edu.br">annagouvea@alunos.utfpr.edu.br</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="perfil">
+            <img src="../public/img/perfilLuis.jpg" alt="Luís Felipe Mori">
+            <div class="perfilInfos">
+                <ul>
+                    <li>
+                        <h4>Luís Felipe Mori</h4>
+                    </li>
+                    <li>R.A.: 2266245</li>
+                    <li>Email: <a href="mailto:luismori@alunos.utfpr.edu.br">luismori@alunos.utfpr.edu.br</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<script src="../scripts.js"></script>
+
+</html>
